@@ -4,177 +4,192 @@
 <head>
 
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="Home Page" content="Featured listings star wars autographs star wars toys vintage toys conventions events sign up now sign in search to add to your collection collectibles">
-    <meta name="author" content="">
+    <meta name="description" content="Featured listings star wars autographs star wars toys vintage toys conventions events sign up now sign in search to add to your collection collectibles">
+    <meta name="keywords" content="vintage toys, autographs, conventions, events, signings, 80's, 70's, toys, vintage">
+    <meta name="author" content="Bryan Cash">
 
-    <title>The ToyBox Search for Collectible Toys, Autographs and Convention or Events</title>
-     
+    <title>The Toy Box Vintage Toy and Autograph Search</title>
+
+     <!-- Normalize Core CSS -->
+    <link href="css/normalize.css" rel="stylesheet">
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Normalize Core CSS -->
-    <link href="css/normalize.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
-    <nav>
-        <div class="navbar navbar-default navbar-fixed-top" role="navigation" id="nav-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html"><img src="images/Logo.png" alt="The Toy Box vintage toy, autograph and convention search" id="logo"></a>
+    <div class="wrapper">
+        <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+            <nav>
+                <div class="container">
+                    <div class="navbar-header">
+                        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="./" class="navbar-brand"><img src="images/Logo.png" alt="The Toy Box vintage toy, autograph and convention search" id="logo"></a>
+                    </div>
+                    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+                      <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Sign Up</a></li>
+                        <li class="active"><a href="#">Sign In</a></li>
+                      </ul>
+                    </nav>
                 </div>
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="SignIn.html">Sign In</a></li>
-                    </ul> 
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="../navbar/">Contact Us</a></li>
-                        <li><a href="SignUp.html">Sign Up</a></li>
+            </nav>
+        </header>
+
+        <div class="row">
+             <div class="col-md-5">
+                <div class="side-nav-container">
+                    <ul class="side-nav">
+                        <li class="side-active"><a href="#"><span class="text">Search for Vintage Toys</span></a></li>
+                        <li><a href="#"><span class="text">Search for Autographs</span></a></li>
+                        <li><a href="#"><span class="text">Search for Events</span></a></li>
                     </ul>
-                </div><!--/.nav-collapse -->
-            </div>
-        </div>
-    </nav>
-    <div class="row">
-        
-        <div class="col-md-7">
-            <section>
-                <div id="search-container">
-                    <h1>Search</h1>
-                        <form class="form-horizontal" role="form">
-                            <div class="form-group">
-                                <label for="collectible" class="col-sm-2 control-label">Collectible</label>
-                                    <div class="col-sm-10">
-                                        <input type="text" class="form-control" id="collectible" 
-                                        placeholder="Type your search">
-                                    </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="type" class="col-sm-2 control-label">Type</label>
-                                    <div class="col-sm-10">
-                                        <input type="text" class="form-control" id="type" 
-                                        placeholder="Optional">
-                                    </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="price" class="col-sm-2 control-label">Price</label>
-                                    <div class="col-sm-5">
-                                        <input type="text" class="form-control" id="min-price" 
-                                        placeholder="0">
-                                    </div>
-                                    <div class="col-sm-5">
-                                        <input type="text" class="form-control" id="max-price" 
-                                        placeholder="2000">
-                                    </div>
-                            </div>
-                            <div class="form-group">
-                                <div class="col-sm-offset-2 col-sm-10">
-                                    <button type="submit" class="btn btn-default">Search</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-            </section>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-5" >
-            <section>
-                <div id="cta">
-                    <h1>Not A Member?</h1>
-                    <article>
-                        <p>Find vintage toys, autographs, conventions or events and add to your collection of collectibles. Sign up now and take advantage of all the features such as</p>
-                        <ul>
-                            <li>A favorites section that allows you to save search results to view later</li>
-                            <li>Share your finds with your friends on your favorite social media</li>
-                            <li>Connect with other collectors</li>
-                        </ul>
-                        <p>And the best part is.....its FREE! Sign up Now</p>
-                        <p><a href="SignUp.html" class="btn btn-primary" role="button">Sign Up</a></p>
-                    </article>
-                </div>
-            </section>
-        </div>
-        <div class="col-md-7">
-            <div id="thmb-container">
-                <section><h1>Featured Listings</h1></section>
-                <div class="row">
-                    <div class="col-sm-6 col-md-4">
-                        <div class="thumbnail">
-                            <img src="images/Placeholder.jpg" alt="Wizard World Comic-Con">
-                                <div class="caption">
-                                    <h4>Thumbnail label</h4>
-                                    <p>...</p>
-                                    <p><a href="#" class="btn btn-primary" role="button" class="btn">Details</a> </p>
-                                </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4">
-                        <div class="thumbnail">
-                            <img src="images/Placeholder.jpg" alt="San Diego Comic-Con">
-                                <div class="caption">
-                                    <h4>Thumbnail label</h4>
-                                    <p>...</p>
-                                    <p><a href="#" class="btn btn-primary" role="button" class="btn">Details</a> </p>
-                                </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4">
-                        <div class="thumbnail">
-                            <img src="images/Placeholder.jpg" alt="1978 Darth Vader dual-extending lightsaber mint condition">
-                                <div class="caption">
-                                    <h4>Thumbnail label</h4>
-                                    <p>...</p>
-                                    <p><a href="#" class="btn btn-primary" role="button" class="btn">Details</a> </p>
-                                </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6 col-md-4">
-                        <div class="thumbnail">
-                            <img src="images/Placeholder.jpg" alt="Peter Mayhew Chewbacca Autograph">
-                                <div class="caption">
-                                    <h4>Thumbnail label</h4>
-                                    <p>...</p>
-                                    <p><a href="#" class="btn btn-primary" role="button" class="btn">Details</a> </p>
-                                </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4">
-                        <div class="thumbnail">
-                            <img src="images/Placeholder.jpg" alt="Ray Park Darth Maul Autograph">
-                                <div class="caption">
-                                    <h4>Thumbnail label</h4>
-                                    <p>...</p>
-                                    <p><a href="#" class="btn btn-primary" role="button" class="btn">Details</a> </p>
-                                </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4">
-                        <div class="thumbnail">
-                            <img src="images/Placeholder.jpg" alt="Star Wars 1988 X-Wing Fighter">
-                                <div class="caption">
-                                    <h4>Thumbnail label</h4>
-                                    <p>...</p>
-                                    <p><a href="#" class="btn btn-primary" role="button" class="btn">Button</a> </p>
-                                </div>
-                        </div>
-                    </div>
                 </div>
             </div>
+            <div class="col-md-7">
+                
+                    <img src="images/wood-toy-box.jpg" alt="toy box background image" id="bckgrd">
+                
+                <section>
+                    <div id="search-container">
+                        <div id="search-form">
+                            <h2>Search</h2>
+                                <form class="form-horizontal" role="form">
+                                    <div class="form-group">
+                                        <label for="collectible" class="col-sm-2 control-label">Collectible</label>
+                                            <div class="col-sm-10">
+                                                <input type="text" class="form-control" id="collectible" 
+                                                placeholder="Type your search">
+                                            </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="type" class="col-sm-2 control-label">Type</label>
+                                            <div class="col-sm-10">
+                                                <input type="text" class="form-control" id="type" 
+                                                placeholder="Optional">
+                                            </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label">Price</label>
+                                            <div class="col-sm-5">
+                                                <input type="text" class="form-control" id="min-price" 
+                                                placeholder="0">
+                                            </div>
+                                            <div class="col-sm-5">
+                                                <input type="text" class="form-control" id="max-price" 
+                                                placeholder="2000">
+                                            </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-sm-offset-2 col-sm-10">
+                                            <button type="submit" class="btn btn-default">Search</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                </section>
+            </div>
         </div>
-    </div>
-        
-    <footer></footer>
+        <div class="row">
+            <div class="col-md-5" >
+                <section>
+                    <div id="cta">
+                        <h1>Not A Member?</h1>
+                        <article>
+                            <h3>Sign up Now</h3>
+                            <p>Vintage toys can be hard to find. Lets face it they are rare and there are so many replicas out there. Here at the Toy Box, you can search for that specific rare toy that you are looking for.</p><br><p>What about autographs? You can search for those too! Find out our where you can get autographs from your favorite celebrities.</p><br><p>The Toy Box is easy and simple to use and best of all its free! But wait there’s more! Become a member and get access to all of these cool features:</p>
+                            <ul>
+                                <li>A personal profile where you can connect and share your own collection with others.</li>
+                                <li>Save your finds in the Toy Box (a favorites section).</li>
+                                <li>Share your finds with your friends on your favorite social network.</li>
+                            </ul>
+                            <p><a href="SignUp.html" class="btn btn-primary" role="button">Sign Up</a></p>
+                        </article>
+                    </div>
+                </section>
+            </div>
+            <div class="col-md-7">
+                <div id="thmb-container">
+                    <section><h1>Featured Listings</h1></section>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4">
+                            <div class="thumbnail">
+                                <img src="images/boba-fett1.jpg" alt="Boba fett vintage toy" class="image">
+                                    <div class="caption">
+                                        <h4>Boba Fett</h4>
+                                        <p>Vintage Boba Fett action figure made by Kenner Toys mint condition for sale.</p>
+                                        <p><a href="#" class="btn btn-primary" role="button" >Details</a> </p>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="thumbnail">
+                                <img src="images/prime.jpg" alt="San Diego Comic-Con">
+                                    <div class="caption">
+                                        <h4>Thumbnail label</h4>
+                                        <p>...</p>
+                                        <p><a href="#" class="btn btn-primary" role="button" >Details</a> </p>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="thumbnail">
+                                <img src="images/peter_autograph.jpg" alt="1978 Darth Vader dual-extending lightsaber mint condition">
+                                    <div class="caption">
+                                        <h4>Thumbnail label</h4>
+                                        <p>...</p>
+                                        <p><a href="#" class="btn btn-primary" role="button" >Details</a> </p>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4">
+                            <div class="thumbnail">
+                                <img src="images/david_prowse.jpg" alt="Peter Mayhew Chewbacca Autograph">
+                                    <div class="caption">
+                                        <h4>Thumbnail label</h4>
+                                        <p>...</p>
+                                        <p><a href="#" class="btn btn-primary" role="button" >Details</a> </p>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="thumbnail">
+                                <img src="images/lion-o.jpg" alt="Ray Park Darth Maul Autograph">
+                                    <div class="caption">
+                                        <h4>Thumbnail label</h4>
+                                        <p>...</p>
+                                        <p><a href="#" class="btn btn-primary" role="button" >Details</a> </p>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="thumbnail">
+                                <img src="images/Placeholder.jpg" alt="Star Wars 1988 X-Wing Fighter">
+                                    <div class="caption">
+                                        <h4>Thumbnail label</h4>
+                                        <p>...</p>
+                                        <p><a href="#" class="btn btn-primary" role="button">Details</a> </p>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="push"></div>
+    </div>  
+ 
+
+  
 
 
 
