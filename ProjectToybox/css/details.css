@@ -1,0 +1,123 @@
+body{
+	font-family: helvetica, arial;
+	width: 100%;
+	background: #ffffff;
+	color: #000;
+  	padding-top: 50px;	
+}
+
+
+.navbar-default>ul>li>a{
+	color:white;
+}
+
+#logo{
+	margin-top: -15px;
+	width: 150px;
+	height: 50px;	
+}
+.navbar-inverse { 
+	background-color: #1D5A73
+}
+.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { 
+	background-color: #F2DB94
+}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { 
+	background-color: #3391A6
+}
+.navbar-inverse { 
+	background-image: none; 
+}
+.navbar-inverse { 
+	border-color: #080808
+}
+.navbar-inverse .navbar-brand {
+ 	color: #999999
+}
+.navbar-inverse .navbar-brand:hover { 
+	color: #999999
+}
+.navbar-inverse .navbar-nav>li>a { 
+	color: #F2DB94
+}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { 
+	color: #1D5A73
+}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { 
+	color: #FFFFFF
+}
+.navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus { 
+	color: #1D5A73
+}
+.caption{
+	text-align: center;
+}
+#tools {
+	display:block; 
+    width:100%; 
+    height:auto;
+    margin-right: 80px;
+}
+#tools a img{
+	display:block;
+}
+#tools a{
+	text-decoration: none;
+	font-size:2em;
+	color:#D96248;
+}
+.thumbnail{
+	margin:80px;
+}
+#ad{
+	margin-left:80px;
+	margin-top:20px;
+	
+}
+#ad>img{
+	width:100%;
+}
+h1{
+	background-color: #1D5A73;
+	color:#F2DB94;
+	padding:25px;
+}
+#details{
+	background-color: #E6E6E6;
+	margin-right: 80px;
+}
+article ul li{
+	list-style: none;
+}
+article ul li {
+	background-color: #1D5A73; 
+	color:#E6E6E6;
+	padding:5px;
+	width:200px;
+}
+article ul li:nth-child(odd) { 
+	background: #E6E6E6; 
+	color:#1D5A73;
+}
+article{
+	padding: 15px;
+}
+footer{
+	background-color: #1D5A73;
+	color:#E6E6E6;
+	width: 100%;
+	padding:20px;
+	margin-top:25px;
+}
+@media only screen and (max-width : 992px){
+	#tools a img{
+		width:10%;
+		height:10%;
+		display: inline-block;
+		margin-left:30px;
+	}
+	#tools a{
+		font-size: 1em;
+	}
+
+}
